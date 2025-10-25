@@ -13,9 +13,9 @@ read -p "key in your choice:" choice
 case "$choice" in
 1)
 	echo "use git."
-	git clone git@github.com:gem5/gem5.git
+	git clone git@github.com:gem5/gem5.git /workstationhere/gem5
 
-	cd gem5
+	cd /workstationhere/gem5
 	python3 -m venv --system-site-packages ~/python_venv
 	source ~/python_venv/bin/activate
 	pip install -r requirements.txt
@@ -28,9 +28,9 @@ case "$choice" in
 	;;
 2)
 	echo "use gitee."
-	git clone https://gitee.com/wlx419/gem5.git
+	git clone https://gitee.com/wlx419/gem5.git /workstationhere/gem5
 
-	cd gem5
+	cd /workstationhere/gem5
 	python3 -m venv --system-site-packages ~/python_venv
 	source ~/python_venv/bin/activate
 	pip install -r requirements.txt
