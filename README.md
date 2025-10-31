@@ -8,4 +8,8 @@
 
 如果你和我一样使用arch，可以使用`build_script.sh`。（虽然我写了，但是玩arch应该是会用梯子的）。当然arch滚动更新很快，我也没有做版本限制，可能很快就无法运行了。
 
-所以我更建议使用docker方案，使用`build_script_docker_ubuntu24.04.sh`，你可以在任何OS上获得完全一样的体验。
+所以我更建议使用docker方案，使用`build_script_docker_ubuntu24.04.sh`，你可以在任何OS上获得完全一样的体验。(ubuntu 镜像版本为24.04.3 LTS，如镜像更新后无法成功运行在pull命令上加版本限制即可。)
+
+# lab2
+
+如果你把lab1中的环境打包为镜像`exp1`的话，
