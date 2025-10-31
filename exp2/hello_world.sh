@@ -1,4 +1,5 @@
 cd workstationhere
-cd gem5_assignment
+#cd gem5_assignment
+source ~/python_venv/bin/activate
 
-git config --global --add safe.directory /workstationhere/gem5-assignment-template
+gem5/build/RISCV/gem5.opt gem5_assignment/run.py

@@ -21,7 +21,7 @@ case "$choice" in
 	pip install -r requirements.txt
 
 	cd build_opts
-	sed -i "s/PROTOCOL = 'MI_example'/PROTOCOL = 'MESI_Two_Level'/" RISCV
+	sed -i 's/PROTOCOL="MI_example"/PROTOCOL="MESI_Two_Level"/' RISCV
 	cd ..
 	scons build/RISCV/gem5.opt -j$(nproc) PROTOCOL="MESI_Two_Level"
 	./build/RISCV/gem5.opt
