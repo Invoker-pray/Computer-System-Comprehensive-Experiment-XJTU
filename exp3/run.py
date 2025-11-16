@@ -4,7 +4,7 @@ from components.boards import HW1RISCVBoard
 from components.processors import HW1TimingSimpleCPU
 #from components.cache_hierarchies import HW0MESITwoLevelCache
 from components.cache_hierarchies import HW1MESITwoLevelCache
-
+from components.processors import HW1MinorCPU
 
 #from components.memories import HW0DDR3_1600_8x8
 from components.memories import HW1DDR3_1600_8x8

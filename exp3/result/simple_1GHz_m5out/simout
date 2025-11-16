@@ -3,8 +3,8 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 23.0.1.0
 gem5 compiled Oct 31 2025 14:43:14
-gem5 started Nov  5 2025 19:17:50
-gem5 executing on 06a87825a5ae, pid 8
+gem5 started Nov 16 2025 16:47:43
+gem5 executing on f0d943ae80d1, pid 8
 command line: gem5/build/RISCV/gem5.opt -re gem5_assignment/run.py
 
 Global frequency set at 1000000000000 ticks per second

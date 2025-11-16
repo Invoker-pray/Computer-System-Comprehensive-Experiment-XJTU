@@ -1,5 +1,19 @@
-NameError: name 'HW1MinorCPU' is not defined
-
-At:
-  gem5_assignment/run.py(23): <module>
-  src/python/m5/main.py(630): main
+warn: The `CustomResource` class is deprecated. Please use an `AbstractResource` subclass instead.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+board.remote_gdb: Listening for connections on port 7000
+src/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+src/mem/ruby/system/Sequencer.cc:606: warn: Replacement policy updates recently became the responsibility of SLICC state machines. Make sure to setMRU() near callbacks in .sm files!
+src/sim/syscall_emul.hh:1014: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/workstationhere/gem5_assignment/workloads/matmul/mm-gem5'
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+warn: No behavior was set by the user for work begin. Default behavior is resetting the stats and continuing.
+src/sim/simulate.cc:194: info: Entering event queue @ 15902384000.  Starting simulation...
+warn: No behavior was set by the user for work end. Default behavior is dumping the stats and continuing.
+src/sim/simulate.cc:194: info: Entering event queue @ 149443810000.  Starting simulation...
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
