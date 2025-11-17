@@ -1,0 +1,11 @@
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.0.1.0
+gem5 compiled Oct 31 2025 14:43:14
+gem5 started Nov 17 2025 22:39:07
+gem5 executing on 2a0a5c935423, pid 9
+command line: gem5/build/RISCV/gem5.opt -re gem5_assignment/run.py
+
+Global frequency set at 1000000000000 ticks per second
+Finished simulation.
