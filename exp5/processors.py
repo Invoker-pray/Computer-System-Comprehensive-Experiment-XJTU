@@ -149,3 +149,12 @@ class HW3LittleCore(HW3O3CPU):
         self._num_fp_regs = num_fp_regs
 
 
+
+class HW3MediumCore(HW3O3CPU):
+    def __init__(self, width, rob_size, num_int_regs, num_fp_regs): 
+        super().__init__(width, rob_size, num_int_regs, num_fp_regs)
+        self._width = width
+        self._rob_size = rob_size
+        self._num_int_regs = num_int_regs
+        self._num_fp_regs = num_fp_regs
+
