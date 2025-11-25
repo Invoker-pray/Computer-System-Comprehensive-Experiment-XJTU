@@ -150,8 +150,35 @@ class HW3LittleCore(HW3O3CPU):
 
 
 
-class HW3MediumCore(HW3O3CPU):
-    def __init__(self, width, rob_size, num_int_regs, num_fp_regs): 
+class HW3MediumCore1(HW3O3CPU):
+    def __init__(self, width=8, rob_size=152, num_int_regs=100, num_fp_regs=84): 
+        super().__init__(width, rob_size, num_int_regs, num_fp_regs)
+        self._width = width
+        self._rob_size = rob_size
+        self._num_int_regs = num_int_regs
+        self._num_fp_regs = num_fp_regs
+
+
+
+class HW3MediumCore2(HW3O3CPU):
+    def __init__(self, width=4, rob_size=304, num_int_regs=100, num_fp_regs=84): 
+        super().__init__(width, rob_size, num_int_regs, num_fp_regs)
+        self._width = width
+        self._rob_size = rob_size
+        self._num_int_regs = num_int_regs
+        self._num_fp_regs = num_fp_regs
+
+
+class HW3MediumCore3(HW3O3CPU):
+    def __init__(self, width=4, rob_size=152, num_int_regs=200, num_fp_regs=84): 
+        super().__init__(width, rob_size, num_int_regs, num_fp_regs)
+        self._width = width
+        self._rob_size = rob_size
+        self._num_int_regs = num_int_regs
+        self._num_fp_regs = num_fp_regs
+
+class HW3MediumCore4(HW3O3CPU):
+    def __init__(self, width=4, rob_size=152, num_int_regs=100, num_fp_regs=168): 
         super().__init__(width, rob_size, num_int_regs, num_fp_regs)
         self._width = width
         self._rob_size = rob_size

@@ -11,6 +11,10 @@ from components.boards import HW3RISCVBoard
 
 from components.processors import HW3BigCore
 from components.processors import HW3LittleCore
+from components.processors import HW3MediumCore1
+from components.processors import HW3MediumCore2
+from components.processors import HW3MediumCore3
+from components.processors import HW3MediumCore4
 
 #from components.cache_hierarchies import HW0MESITwoLevelCache
 #from components.cache_hierarchies import HW1MESITwoLevelCache
@@ -48,5 +52,7 @@ if __name__ == "__m5_main__":
     board.set_workload(workload)
     simulator = Simulator(board=board, full_system=False, on_exit_event=exit_event_handler)
     simulator.run()
+    score = cpu.get_area_score()
+    print("score: ", score)
     print("Finished simulation.")
     
