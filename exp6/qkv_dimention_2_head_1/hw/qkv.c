@@ -73,7 +73,7 @@ void qkv(){
 	}
 
 	// concat
-	for (int i = 0;i < 2; i ++ ){
+	for (int i = 0;i < N; i ++ ){
 		for(int d = 0; d < D_HEAD; d++){
 			o[IDX(i,N, offset+d)]=oh[IDX(i,N,d)];
 		}
