@@ -1,6 +1,6 @@
 git clone https://gitee.com/wlx419/gem5-salam.git
 
-sudo cp -r ../exp1/gem5 .
+#sudo cp -r ../exp1/gem5 .
 
 docker build . --file Dockerfile --build-arg BUILD_TYPE="opt"
 

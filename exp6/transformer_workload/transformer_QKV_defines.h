@@ -1,4 +1,0 @@
-#ifndef __TRANSFORMER_QKV_DEFINE_H__
-#define __TRANSFORMER_QKV_DEFINE_H__
-
-#endif
