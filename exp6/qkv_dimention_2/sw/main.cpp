@@ -49,13 +49,14 @@ int __attribute__((optimize("0"))) main(void) {
     stage = 0;
 //printf("3\n");
     random_generate(m1, m2, m3);
-//printf("4\n");
+printf("4\n");
     *val_a = (uint32_t)(void *) m1;
     *val_b = (uint32_t)(void *) m2;
     *val_c = (uint32_t)(void *) m3;
     *val_d = (uint32_t)(void *) m4;
     *top = 0x01;
 //printf("5\n");
+
     while (stage < 1) count++;
     printf("Job complete\n");
 

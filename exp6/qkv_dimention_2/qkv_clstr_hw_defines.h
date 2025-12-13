@@ -10,7 +10,10 @@
 //Accelerator: QKV
 #define QKV 0x10020080
 #define query 0x100200c0
-#define key 0x10028100
-#define value 0x10030140
-#define output 0x10038180
+#define key 0x10020100
+#define value 0x10020140
+#define output 0x10020180
+#define score 0x100201c0
+#define attention 0x10020200
+#define out_head 0x10020240
 //END GENERATED CODE

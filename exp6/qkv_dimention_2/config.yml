@@ -26,23 +26,40 @@ acc_cluster:
       - Var:
           - Name: query
             Type: SPM
-            Size: 32768
+            Size: 32
             Ports: 2
       - Var:
           - Name: key
             Type: SPM
-            Size: 32768
+            Size: 32
             Ports: 2
       - Var:
           - Name: value
             Type: SPM
-            Size: 32768
+            Size: 32
             Ports: 2
       - Var:
           - Name: output
             Type: SPM
-            Size: 32768
+            Size: 32
             Ports: 2
+      - Var:
+          - Name: score
+            Type: SPM
+            Size: 32
+            Ports: 2
+      - Var:
+          - Name: attention
+            Type: SPM
+            Size: 32
+            Ports: 2
+      - Var:
+          - Name: out_head
+            Type: SPM
+            Size: 32
+            Ports: 2
+
+
 
 hw_config:
   name: qkv_clstr
