@@ -7,6 +7,8 @@ cd gem5-salam
 rm -rf docker/Dockerfile
 cp ../Dockerfile docker/Dockerfile
 
+rm -rf docs/update-alternatives.sh
+cp ../update-alternatives.sh docs/update-alternatives.sh
 
 docker build . --file Dockerfile --build-arg BUILD_TYPE="opt"
 
