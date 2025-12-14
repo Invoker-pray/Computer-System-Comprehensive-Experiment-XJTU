@@ -25,7 +25,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && export TZ=America/New_York && \
 WORKDIR /gem5-SALAM
 COPY . /gem5-SALAM
 ENV M5_PATH=/gem5-SALAM
-RUN docs/update-alternatives.sh
+RUN sudo bash docs/update-alternatives.sh
 
 # Build gem5-SALAM.
 RUN scons build/ARM/gem5."$BUILD_TYPE" -j`nproc`
