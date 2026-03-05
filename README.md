@@ -83,7 +83,7 @@
 
 4. 所有数组的定义必须**全部写在 `config.yml` 中**。
 
-5. 实验环境的构建（即 Docker 镜像生成）必须使用我提供的 Dockerfile。  
+5. 实验环境的构建（即 Docker 镜像生成）要使用我这里修改过的 Dockerfile。  
    实验资源中自带的 Dockerfile **无法生成可正常使用的镜像**。
 
 _附注：如果你本身就在 Ubuntu 机器上运行，并且不想使用 Docker，  
